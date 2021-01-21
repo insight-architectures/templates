@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Insight Architectures",
+    "classifications": ["IA", "Testing", "AutoData"],
+    "name": "[IA] CustomAutoDataAttributes",
+    "identity": "InsightArchitectures.Templates.Items.CustomAutoDataAttributes",
+    "groupIdentity": "InsightArchitectures.Templates.Items.CustomAutoDataAttributes.CSharp",
+    "shortName": "autodata",
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+    "defaultName": "CustomAutoDataAttributes",
+    "description": "This templates creates a CustomAutoDataAttributes file that uses AutoFixture AutoData for NUnit3 with AutoFixture.AutoMoq"
+}
