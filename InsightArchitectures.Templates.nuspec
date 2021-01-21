@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InsightArchitectures.Templates</id>
+    <version>0.1.0</version>
+    <authors>Insight Architectures</authors>
+    <owners>Insight Architectures</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/insight-architectures/templates</projectUrl>
+    <repository type="git" url="https://github.com/insight-architectures/templates" />
+    <description>Contains several templates to be used with dotnet-new</description>
+    <tags>dotnet-standard dotnet-new template</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="content/**" target="content" exclude="**\bin\**;**\obj\**;**\.vs\**;**\*.user;" />
+    <file src="assets/icon.png" target="icon.png" />
+  </files>
+</package>
