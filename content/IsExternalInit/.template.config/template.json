@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Insight Architectures",
+    "classifications": ["IA", "IsExternalInit"],
+    "name": "[IA] IsExternalInit",
+    "identity": "InsightArchitectures.Templates.Items.IsExternalInit",
+    "groupIdentity": "InsightArchitectures.Templates.Items.IsExternalInit.CSharp",
+    "shortName": "isexternalinit",
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+    "defaultName": "IsExternalInit",
+    "description": "This templates creates a IsExternalInit file that adds low-level support for init-only properties in runtimes prior to .NET 5.0."
+}
